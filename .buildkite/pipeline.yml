@@ -1,0 +1,10 @@
+steps:
+  - label: "Build"
+    command: ""echo 'Hello, This is Build step!'""
+    agents:
+      queue: "default"
+
+  - label: "Test"
+    command: "echo 'Hello, This is Test step!'"
+    agents:
+      queue: "default"
