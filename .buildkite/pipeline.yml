@@ -1,7 +1,7 @@
 
 steps:
   - label: "Build"
-    command: ""echo 'Hello, This is Build step!'""
+    command: "echo 'Hello, This is Build step!'"
     agents:
       queue: "default"
       agentname: "testl"
